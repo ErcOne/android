@@ -10,7 +10,7 @@
            review="review.cyanogenmod.org" />
            
   <remote name="rm"
-           fetch="https://github.com/android-armv7a-belalang-tempur/" /> 
+           fetch="https://github.com/ErcOne/" /> 
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
