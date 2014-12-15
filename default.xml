@@ -20,15 +20,15 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ErcOne/android_build" remote="rm" revision="cm-12.0" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="rm" revision="cm-12.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ErcOne/android" remote="rm" revision="cm-12.0" />
+  <project path="android" name="android" remote="rm" revision="cm-12.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="ErcOne/android_bionic" remote="rm" revision="cm-12.0" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="rm" revision="cm-12.0" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -332,8 +332,8 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="frameworks/av" name="ErcOne/android_frameworks_av" remote="rm" revision="cm-12.0" groups="pdk" />
-  <project path="frameworks/base" name="ErcOne/android_frameworks_base" remote="rm" revision="cm-12.0" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="cm-12.0" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="cm-12.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -357,7 +357,7 @@
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
-  <project path="frameworks/opt/net/wifi" name="ErcOne/android_frameworks_opt_net_wifi" groups="pdk" remote="rm" revision="cm-12.0" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="rm" revision="cm-12.0" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
@@ -555,5 +555,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="vendor/cm" name="ErcOne/android_vendor_cm" remote="rm" revision="cm-12.0" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="rm" revision="cm-12.0" />
 </manifest>
