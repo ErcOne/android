@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+           
+  <remote name="rm"
+           fetch="https://github.com/android-armv7a-belalang-tempur/" /> 
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
